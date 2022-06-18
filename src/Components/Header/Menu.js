@@ -10,7 +10,9 @@ function Menu() {
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Brand className="navBrand">
-            <img src={logo} alt="logo" />
+            <Link to="/home">
+              <img src={logo} alt="logo" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav nav_background">
             <Nav className="me-auto">
