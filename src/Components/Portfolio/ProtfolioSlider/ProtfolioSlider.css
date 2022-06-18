@@ -1,0 +1,46 @@
+.prot_slider {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.prot_text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.prot_text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.slider_prot {
+  margin-top: 50px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===========Responsive========== */
+@media only screen and (max-width: 768px) {
+  .prot_slider {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .prot_text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

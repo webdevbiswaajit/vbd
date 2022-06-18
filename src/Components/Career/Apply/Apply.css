@@ -1,0 +1,97 @@
+.apply_text {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.apply_text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+
+.apply_text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.get_job {
+  background: #fff;
+  padding: 20px;
+  transition: 0.2s all ease;
+}
+
+.get_job:hover {
+  background: #ecf0f1;
+  border-radius: 10px;
+}
+
+.job_expertis small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #00b2e2;
+}
+
+.job_name h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #2c3e50;
+}
+
+.job_name span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2c3e50;
+}
+
+.selary p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2c3e50;
+}
+
+.job_text {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.job_text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  color: #2c3e50;
+}
+
+.job_apply {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.job_apply a {
+  background: #3498db;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.apply_area {
+  margin-bottom: 100px;
+}

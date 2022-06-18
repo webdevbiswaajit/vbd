@@ -1,0 +1,103 @@
+.tetiomial {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: #ecf0f1;
+}
+
+.testimonial_small {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+.testimonial_head h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.review_card {
+  /* width: 500px; */
+  /* height: 280px; */
+  background-color: #fff;
+  padding: 35px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.review_author {
+  display: flex;
+  width: 100%;
+}
+.review_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+.reviw_star {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+.review_img {
+  width: 80px;
+  height: 80px;
+}
+.review_img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.rivew_name p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  color: #2c3e50;
+}
+.rivew_degination {
+  margin-top: -20px;
+}
+.rivew_degination p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2c3e50;
+}
+.review_text {
+  margin-top: 15px;
+}
+.review_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #2c3e50;
+  text-align: justify;
+}
+.review_card > .swiper-slide img {
+  width: 300px;
+}
+.tetiomial .swiper {
+  height: 380px !important;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .tetiomial {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tetiomial .swiper {
+    height: 440px !important;
+  }
+  .testimonial_head h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -40px;
+  }
+}

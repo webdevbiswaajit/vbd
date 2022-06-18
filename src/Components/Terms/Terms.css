@@ -1,0 +1,47 @@
+.terms_banner {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) -35.54%, rgba(147, 184, 193, 0.4) 134.11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.terms_banner h2 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 95px;
+    text-align: center;
+}
+
+.terms_banner p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.terms_info {
+    width: 70%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+
+.terms_info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.terms_info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: justify;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}

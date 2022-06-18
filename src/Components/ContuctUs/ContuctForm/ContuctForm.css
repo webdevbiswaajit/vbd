@@ -1,0 +1,79 @@
+.contuct_form {
+  background: linear-gradient(268.33deg, #3498db 5.06%, #2980b9 94.73%);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.phone_number {
+  text-align: center;
+}
+
+.dial_icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.call p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.phone_number h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 73px;
+  color: #ffffff;
+}
+
+.dial {
+  position: relative;
+}
+
+.dial::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #fff;
+  margin-top: -10px;
+}
+
+.contuct_btn a {
+  background: #ecf0f1;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c3e50;
+  padding: 12px 40px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* form_area */
+
+/* ===================Responsive================ */
+@media only screen and (max-width: 768px) {
+  .contuct_form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .phone_number h1 {
+    font-size: 30px;
+  }
+}

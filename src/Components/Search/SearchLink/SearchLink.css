@@ -1,0 +1,68 @@
+.search_link {
+  background: linear-gradient(
+    248.14deg,
+    rgba(255, 255, 255, 0.4) 1.48%,
+    rgba(147, 184, 193, 0.4) 121.81%
+  );
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.search_text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+
+.search_text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.search_text {
+  margin-bottom: 50px;
+}
+
+.course_name h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 38px;
+  color: #3498db;
+  margin-bottom: 30px;
+}
+
+.link p a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2c3e50;
+}
+
+.search_item {
+  margin-bottom: 60px;
+}
+
+/* ============Responsive============== */
+@media only screen and (max-width: 768px) {
+  .search_link {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .search_text h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .search_item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

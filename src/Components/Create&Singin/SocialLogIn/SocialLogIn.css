@@ -1,0 +1,33 @@
+.log_text {
+    text-align: center;
+    position: relative;
+}
+
+.log_text p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(44, 62, 80, 0.8);
+}
+
+.log_text p::after {
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 2px;
+    top: 10px;
+    right: 0px;
+    background: rgba(44, 62, 80, 0.8);
+    ;
+}
+
+.log_text p::before {
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 2px;
+    top: 10px;
+    left: 0px;
+    background: rgba(44, 62, 80, 0.8);
+    ;
+}

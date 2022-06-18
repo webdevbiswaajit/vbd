@@ -1,0 +1,43 @@
+.counter {
+  text-align: center;
+  background: linear-gradient(268.33deg, #3498db 5.06%, #2980b9 94.73%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 80px;
+}
+
+.counting {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 106px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.counter_info p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+/* ==================Responsive================== */
+
+@media only screen and (max-width: 768px) {
+  .counting {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .counter_info p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .counter {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

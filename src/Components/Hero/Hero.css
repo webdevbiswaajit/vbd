@@ -1,0 +1,127 @@
+.hero {
+  background-image: url(./img/herobac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.hero::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.hero_content {
+  color: #fff;
+}
+
+.hero_content h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+}
+
+.hero_content h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95px;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.play p {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 95px;
+  color: #fff;
+}
+
+.play_btn {
+  height: 100px;
+  width: 100px;
+  color: #00b2e2;
+  cursor: pointer;
+  margin-right: 32px;
+}
+
+.heartbeat {
+  animation: heartbeat 2s infinite;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+/* =======================Responsive===================== */
+
+@media only screen and (max-width: 768px) {
+  .hero_content h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .hero_content h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .play_btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .play p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,35 @@
+.portfolio_hero {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) -35.54%,
+    rgba(147, 184, 193, 0.4) 134.11%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.portfolio_text h2 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 95px;
+  text-align: center;
+}
+
+/* =================Responsive================= */
+
+@media only screen and (max-width: 768px) {
+  .portfolio_hero {
+    margin-top: -5px;
+  }
+  .portfolio_hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .portfolio_text h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}

@@ -1,0 +1,91 @@
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.accordion-item .accordion-button:hover {
+  background-color: #3498db;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.accordion-item:first-of-type {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.accordion-item {
+  background: #ecf0f1;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.accordion-button {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #3498db;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.faq_content {
+  margin-left: 20px;
+}
+
+.faq_content p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  color: #2c3e50;
+}
+
+.faq_button {
+  background: #3498db;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 13px 41px;
+  margin-top: 15px;
+}
+
+.faq_button a {
+  color: #fff;
+}
+
+/* ===============Responsive================ */
+
+@media only screen and (max-width: 768px) {
+  .faq_content p {
+    margin-top: 15px;
+    margin-left: -10px;
+    margin-right: 18px;
+    font-weight: 500;
+  }
+}

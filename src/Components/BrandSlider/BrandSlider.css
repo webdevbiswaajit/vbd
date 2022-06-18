@@ -1,0 +1,19 @@
+.nice {
+  display: flex;
+}
+.logo_item {
+  margin: 0px 30px 0px 30px;
+}
+.brand_text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+.brandSlider {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #ecf0f1;
+}

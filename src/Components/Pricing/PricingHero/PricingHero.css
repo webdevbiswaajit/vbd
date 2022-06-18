@@ -1,0 +1,43 @@
+.pricing_hero {
+  background-image: url(../../../Images/PricingzHero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+}
+
+.pricing_hero::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(44, 62, 80, 0.4);
+  z-index: -11;
+}
+
+.pricing_txt h2 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 95px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing_hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: -5px;
+  }
+  .pricing_txt h2 {
+    font-size: 40px;
+  }
+}
