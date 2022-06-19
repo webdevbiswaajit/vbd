@@ -9,8 +9,8 @@ function Provide() {
       <section className="provide">
         <Container>
           <div className="provide_top">
-            <h2>Services We Provide</h2>
             <p>Know More About Our Services</p>
+            <h2>Services We Provide</h2>
           </div>
           <div className="provide_tabs">
             <Tabs
