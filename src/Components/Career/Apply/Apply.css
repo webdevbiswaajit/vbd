@@ -90,7 +90,13 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  text-transform: uppercase;
   color: #ffffff;
+}
+.job_apply a:hover {
+  border: 2px solid #00b2e2;
+  background: #fff;
+  color: #2c3e50;
 }
 
 .apply_area {

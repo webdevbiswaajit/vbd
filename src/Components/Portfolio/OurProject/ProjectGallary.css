@@ -126,6 +126,16 @@
   color: #fff;
   padding: 12px 40px;
   border: none;
+  transition: 0.2sall ease;
+  -webkit-transition: 0.2sall ease;
+  -moz-transition: 0.2sall ease;
+  -ms-transition: 0.2sall ease;
+  -o-transition: 0.2sall ease;
+}
+.loadMore button:hover {
+  background: #fff;
+  border: 2px solid #3498db;
+  color: #2c3e50;
 }
 
 /* ==================Responsive=============== */

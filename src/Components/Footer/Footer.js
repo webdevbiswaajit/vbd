@@ -59,7 +59,7 @@ function Footer() {
                       <Link to="/pricing">Pricing</Link>
                     </li>
                     <li>
-                      <Link to="/carreer">Carreer</Link>
+                      <Link to="/career">Carreer</Link>
                     </li>
                     <li>
                       <Link to="/terms-conditions">Terms & Conditions</Link>

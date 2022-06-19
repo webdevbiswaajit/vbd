@@ -1,15 +1,16 @@
 import React from "react";
 import "./ContuctBtn.css";
+import { Link } from "react-router-dom";
 
 function ContuctBtn() {
   return (
     <>
-      <div className="button_area">
-        <div className="get_stered banner_button">
-          <button>Get Started</button>
+      <div className="golobal_button">
+        <div className="global_started_btn">
+          <Link to="/services">Get Started</Link>
         </div>
-        <div className="contuct_us banner_button">
-          <button>Contact Us</button>
+        <div className="global_contuct_btn">
+          <Link to="/contuct">Contact Us</Link>
         </div>
       </div>
     </>

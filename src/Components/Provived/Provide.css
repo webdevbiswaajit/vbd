@@ -147,15 +147,7 @@ ul {
   ul {
     font-size: 14px;
   }
-  .get_stered button {
-    font-size: 14px;
-    margin-left: -15px;
-  }
-  .button_area {
-    display: flex;
-    justify-content: center;
-    margin-left: -15px;
-  }
+
   .provide_conten ul li {
     margin-left: -5px;
   }

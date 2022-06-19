@@ -95,6 +95,15 @@ footer .media_social {
   color: #fff;
   border: none;
   padding: 7px 35px;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.subsCribe button:hover {
+  background: #e74c3c;
+  color: #fff;
 }
 
 .subsCribe p {

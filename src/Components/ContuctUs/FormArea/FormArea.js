@@ -7,10 +7,10 @@ function FormArea() {
       <div className="form_area">
         <form action="">
           <div className="visitor_info">
-            <div className="name">
+            <div className="namef">
               <input required="1" type="text" placeholder="Name *" />
             </div>
-            <div className="email">
+            <div className="emailf">
               <input required="1" type="email" placeholder="Email * " />
             </div>
           </div>

@@ -1,22 +1,21 @@
-.social_media ul {
+.login_ocial ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
-.social_media {
+.login_ocial {
   margin-right: 36px;
 }
-.social_media ul li {
+.login_ocial ul li {
   list-style: none;
   margin-right: 16px;
 }
 
-.social_media ul li:last-child {
+.login_ocial ul li:last-child {
   margin-right: 0;
 }
 
-.social_media ul li a {
+.login_ocial ul li a {
   line-height: 24px;
   font-weight: 600;
   font-size: 18px;
@@ -26,7 +25,4 @@
 /* ===================Respnsive================ */
 
 @media only screen and (max-width: 768px) {
-  .social_media {
-    display: none;
-  }
 }

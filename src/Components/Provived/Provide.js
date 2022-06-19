@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs, Tab, Container, Col, Row } from "react-bootstrap";
 import web_banner from "../../Images/webBanner.jpg";
+import ContuctBtn from "../GetStart&Contuct/ContuctUs/ContuctBtn";
 import "./Provide.css";
 
 function Provide() {
@@ -45,12 +46,7 @@ function Provide() {
                           <li> 120 Days Free Support</li>
                         </ul>
                         <div className="button_area">
-                          <div className="get_stered banner_button">
-                            <button>Get Started</button>
-                          </div>
-                          <div className="contuct_us banner_button">
-                            <button>Contact Us</button>
-                          </div>
+                          <ContuctBtn />
                         </div>
                       </div>
                     </Col>
@@ -84,12 +80,7 @@ function Provide() {
                           <li> 120 Days Free Support</li>
                         </ul>
                         <div className="button_area">
-                          <div className="get_stered banner_button">
-                            <button>Get Started</button>
-                          </div>
-                          <div className="contuct_us banner_button">
-                            <button>Contact Us</button>
-                          </div>
+                          <ContuctBtn />
                         </div>
                       </div>
                     </Col>
@@ -123,12 +114,7 @@ function Provide() {
                           <li> 120 Days Free Support</li>
                         </ul>
                         <div className="button_area">
-                          <div className="get_stered banner_button">
-                            <button>Get Started</button>
-                          </div>
-                          <div className="contuct_us banner_button">
-                            <button>Contact Us</button>
-                          </div>
+                          <ContuctBtn />
                         </div>
                       </div>
                     </Col>
@@ -162,12 +148,7 @@ function Provide() {
                           <li> 120 Days Free Support</li>
                         </ul>
                         <div className="button_area">
-                          <div className="get_stered banner_button">
-                            <button>Get Started</button>
-                          </div>
-                          <div className="contuct_us banner_button">
-                            <button>Contact Us</button>
-                          </div>
+                          <ContuctBtn />
                         </div>
                       </div>
                     </Col>

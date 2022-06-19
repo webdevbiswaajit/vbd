@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 import SideLog from "../SideLog/SideLog";
 import SocialLogIn from "./../SocialLogIn/SocialLogIn";
+import Socialmedia from "./../../Socialmedia/Socialmedia";
+import LoginSocial from "../../LoginSocial/LoginSocial";
 
 function Login() {
   return (
@@ -50,11 +52,14 @@ function Login() {
                     </div>
                   </div>
                   <SocialLogIn />
+                  <LoginSocial />
                 </div>
               </div>
             </Col>
             <Col md={6}>
-              <SideLog />
+              <div>
+                <SideLog className="log_gap" />
+              </div>
             </Col>
           </Row>
         </Container>

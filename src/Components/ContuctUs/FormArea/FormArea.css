@@ -4,13 +4,13 @@
   justify-content: space-between;
 }
 
-.name,
-.email {
+.namef,
+.emailf {
   width: 48%;
 }
 
-.email input,
-.name input {
+.emailf input,
+.namef input {
   width: 100%;
   background: #ffffff;
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
@@ -19,8 +19,8 @@
   padding: 10px 20px;
 }
 
-.email input:focus,
-.name input:focus,
+.emailf input:focus,
+.namef input:focus,
 .subject input:focus,
 .meassage textarea:focus {
   outline: none;
@@ -68,4 +68,8 @@
   border: none;
   padding: 8px 35px;
   color: #2c3e50;
+}
+.submit_btn button:hover {
+  background: #e74c3c;
+  color: #fff;
 }
