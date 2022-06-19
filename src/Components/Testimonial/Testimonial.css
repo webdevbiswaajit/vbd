@@ -25,8 +25,6 @@
 }
 
 .review_card {
-  /* width: 480px;
-  height: 280px; */
   background-color: #fff;
   padding: 35px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -37,6 +35,10 @@
   -moz-transition: 0.5s all ease;
   -ms-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .review_card:hover {
   box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
@@ -91,7 +93,7 @@
   text-align: justify;
 }
 .review_card > .swiper-slide img {
-  width: 300px;
+  width: 280px;
 }
 .tetiomial .swiper {
   height: 380px !important;
@@ -110,5 +112,8 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: -40px;
+  }
+  .testimonial_small p {
+    margin-bottom: -15px;
   }
 }

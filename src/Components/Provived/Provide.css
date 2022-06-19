@@ -10,6 +10,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #2c3e50;
+  margin-bottom: -5px;
 }
 
 .provide_top h2 {
@@ -114,11 +115,12 @@ ul {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
   }
   .provide_top h2 {
     font-size: 24px;
     line-height: 20px;
+    margin-top: 10px;
   }
   .provide_tabs {
     display: block;

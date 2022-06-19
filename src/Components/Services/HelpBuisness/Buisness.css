@@ -17,6 +17,7 @@
   text-align: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin-bottom: -5px;
 }
 
 .buisness_content h2 {
@@ -26,7 +27,7 @@
   line-height: 50px;
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .content_sl {

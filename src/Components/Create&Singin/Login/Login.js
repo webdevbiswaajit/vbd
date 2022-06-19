@@ -4,6 +4,7 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 
 import SideLog from "../SideLog/SideLog";
+import SocialLogIn from "./../SocialLogIn/SocialLogIn";
 
 function Login() {
   return (
@@ -48,6 +49,7 @@ function Login() {
                       </Link>
                     </div>
                   </div>
+                  <SocialLogIn />
                 </div>
               </div>
             </Col>

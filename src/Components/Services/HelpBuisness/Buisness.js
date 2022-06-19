@@ -8,8 +8,8 @@ function Buisness() {
       <section className="buisness_area">
         <Container>
           <div className="buisness_content">
-            <h2>How we help your business succeed</h2>
             <p>How We Work</p>
+            <h2>How we help your business succeed</h2>
           </div>
           <Row>
             <Col md={3} className="content_gap">

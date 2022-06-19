@@ -8,8 +8,8 @@ function SearchLink() {
     <>
       <section className="search_link">
         <div className="search_text">
-          <h2>FAQ - Frequently Ask Questions</h2>
           <p>Help Center</p>
+          <h2>FAQ - Frequently Ask Questions</h2>
         </div>
         <Container>
           <Row>
