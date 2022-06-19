@@ -1,11 +1,9 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
 import "./Login.css";
+import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
 import SideLog from "../SideLog/SideLog";
 import SocialLogIn from "./../SocialLogIn/SocialLogIn";
-import Socialmedia from "./../../Socialmedia/Socialmedia";
 import LoginSocial from "../../LoginSocial/LoginSocial";
 
 function Login() {

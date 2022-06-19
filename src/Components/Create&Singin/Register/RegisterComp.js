@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import SideLog from "../SideLog/SideLog";
 import SocialLogIn from "../SocialLogIn/SocialLogIn";
 import "./RegisterComp.css";
-import Socialmedia from "./../../Socialmedia/Socialmedia";
 import LoginSocial from "./../../LoginSocial/LoginSocial";
 
 function RegisterComp() {
