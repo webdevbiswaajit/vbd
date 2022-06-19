@@ -53,7 +53,7 @@ function AuthorSlider() {
                   </div>
                   <div className="author_info">
                     <h3>{data.name}</h3>
-                    <small>Co-Founder & CTO</small>
+                    <small>{data.designation}</small>
                     <div className="author_social_media">
                       <ul>
                         <li>

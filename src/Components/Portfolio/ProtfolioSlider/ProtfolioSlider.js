@@ -14,8 +14,8 @@ function ProtfolioSlider() {
     <>
       <section className="prot_slider">
         <div className="prot_text">
-          <h2>Have a look at our work!</h2>
           <p>our ALl Project</p>
+          <h2>Have a look at our work!</h2>
 
           <div className="slider_prot">
             <Swiper

@@ -5,9 +5,7 @@ function BrandCard(props) {
   return (
     <>
       <div className="brand">
-        <div className="logo_item">
-          <img src={props.data.img} alt="" />
-        </div>
+        <div className="logo_item"></div>
       </div>
     </>
   );

@@ -16,8 +16,7 @@
 /* ========================Author css====================== */
 
 .author {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .intro_text {
@@ -32,6 +31,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #2c3e50;
+  margin-bottom: 8px;
 }
 
 .intro_text h2 {
@@ -40,6 +40,7 @@
   line-height: 50px;
   text-align: center;
   color: #2c3e50;
+  margin-bottom: -25px;
 }
 
 .author_text {
@@ -67,6 +68,7 @@
   font-size: 16px;
   line-height: 30px;
   color: #2c3e50;
+  margin-bottom: -5px;
 }
 
 .author_info small {
@@ -82,23 +84,19 @@
 
 .author_social_media ul {
   display: flex;
-  margin-left: -28px;
-  margin-top: 10px;
+  margin-left: -30px;
 }
 
 .author_social_media ul li {
   list-style: none;
   margin-right: 10px;
-  background: #e74c3c;
-  padding: 5px;
-  border-radius: 50%;
 }
 
 .author_social_media ul li a {
   line-height: 8px;
   font-weight: 400;
-  font-size: 24px;
-  color: #fff;
+  font-size: 18px;
+  color: #e74c3c;
 }
 
 .intro_img {
@@ -118,4 +116,8 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
   display: none;
+}
+/* ===============Responsive================ */
+
+@media only screen and (max-width: 768px) {
 }

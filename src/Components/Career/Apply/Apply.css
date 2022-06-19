@@ -1,6 +1,6 @@
 .apply_text {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .apply_text p {
@@ -19,6 +19,7 @@
   line-height: 50px;
   text-align: center;
   color: #2c3e50;
+  margin-bottom: -50px;
 }
 
 .get_job {
@@ -93,5 +94,23 @@
 }
 
 .apply_area {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+}
+/* =============Responsive============ */
+@media only screen and (max-width: 768px) {
+  .apply_text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .apply_text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .job_name h2 {
+    margin-bottom: -4px;
+  }
+  .job_expertis small {
+    display: block;
+    margin-bottom: -4px;
+  }
 }

@@ -9,18 +9,18 @@ function Menu() {
       <Navbar collapseOnSelect expand="lg" className="navBg" sticky="top">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
           <Navbar.Brand className="navBrand">
-            <Link to="/home">
-              <img src={logo} alt="logo" />
-            </Link>
+            <img src={logo} alt="logo" />
           </Navbar.Brand>
+
           <Navbar.Collapse id="responsive-navbar-nav nav_background">
             <Nav className="me-auto">
               <Nav.Link>
                 <Link to="/home">Home</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/services">services</Link>
+                <Link to="/services">Services</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/portfolio"> Portfolio</Link>

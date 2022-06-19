@@ -7,8 +7,8 @@ function IntroSlider() {
     <>
       <section className="intro_area">
         <div className="intro_text">
-          <h2>Welcome to The Virtual BD</h2>
           <p>Introduction</p>
+          <h2>Welcome to The Virtual BD</h2>
         </div>
         <div className="intro_slider">
           <AuthorSlider />

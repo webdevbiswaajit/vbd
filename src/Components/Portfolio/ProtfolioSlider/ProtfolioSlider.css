@@ -1,6 +1,6 @@
 .prot_slider {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .prot_text p {
@@ -11,15 +11,17 @@
   text-align: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .prot_text h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   color: #2c3e50;
+  margin-bottom: -15px;
 }
 
 .slider_prot {
@@ -36,11 +38,19 @@
 /* ===========Responsive========== */
 @media only screen and (max-width: 768px) {
   .prot_slider {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 15px;
   }
   .prot_text h2 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .prot_text p {
+    line-height: 16px;
+  }
+  .slider_prot {
+    margin-top: 20px;
   }
 }

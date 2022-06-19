@@ -1,7 +1,7 @@
 .hire_us {
   background-color: #ecf0f1;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hire_text {
@@ -16,14 +16,16 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #2c3e50;
+  margin-bottom: 5px;
 }
 
 .hire_text h2 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   color: #2c3e50;
+  margin-bottom: -20px;
 }
 
 .blog_item img {

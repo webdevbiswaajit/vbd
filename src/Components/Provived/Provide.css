@@ -154,4 +154,10 @@ ul {
     justify-content: center;
     margin-left: -15px;
   }
+  .provide_conten ul li {
+    margin-left: -5px;
+  }
+  .banner_content {
+    margin: 10px;
+  }
 }

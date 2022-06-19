@@ -25,11 +25,11 @@
     margin-top: -5px;
   }
   .portfolio_hero {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .portfolio_text h2 {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 30px;
   }
 }

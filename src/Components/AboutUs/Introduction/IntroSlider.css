@@ -1,6 +1,6 @@
 .intro_area {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .intro_img {
   width: 400px;
@@ -20,7 +20,6 @@
   .intro_img img {
     display: flex;
     justify-content: center;
-    margin-left: 8%;
   }
   .author_info {
     margin-left: 0;
@@ -39,11 +38,13 @@
   }
   .author_social_media ul {
     display: flex;
-    margin-left: 0;
     justify-content: center;
   }
   .intro_area {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+/* ============Responsive============ */
+@media only screen and (max-width: 768px) {
 }

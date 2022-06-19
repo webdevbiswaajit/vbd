@@ -1,17 +1,18 @@
 .galarry_text p {
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #2c3e50;
+  margin-bottom: 5px;
 }
 
 .galarry_text h2 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   color: #2c3e50;
 }
@@ -25,7 +26,7 @@
 .galary_btn button {
   font-weight: 400;
   font-size: 16px;
-  line-height: 23px;
+  line-height: 40px;
   color: #3498db;
   border: none;
   background: transparent;
@@ -38,6 +39,8 @@
 
 .galary_btn button:hover {
   border-top: 2px solid #3498db;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .overLine hr {
@@ -88,27 +91,27 @@
   justify-content: center;
   align-items: center;
   margin-top: 40%;
+  text-align: center;
 }
 
 .project_info h3 {
   font-weight: 600;
   font-size: 16px;
   color: #2980b9;
-  text-align: center;
+  margin-bottom: 0;
 }
 
 .project_info p {
   font-weight: 400;
   font-size: 14px;
   color: #2c3e50;
-  text-align: center;
+  margin-bottom: 0;
 }
 
 .project_info small {
   font-weight: 600;
   font-size: 12px;
   color: #2c3e50;
-  margin-top: -30px;
 }
 
 .loadMore {
@@ -137,11 +140,28 @@
     margin-left: 0;
   }
   .galary_btn button {
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: -20px;
   }
 
   .galarry_text h2 {
     font-size: 30px;
     line-height: 30px;
+  }
+  .overLine {
+    margin-top: -30px;
+  }
+  .galarry_text p {
+    line-height: 20px;
+  }
+  .galary_btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .glarry_img {
+    margin-top: 20px;
+  }
+  .galary_btn button:hover {
+    border-top: none;
   }
 }

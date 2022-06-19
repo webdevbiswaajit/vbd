@@ -1,13 +1,13 @@
 import React from "react";
 import "./Socialmedia.css";
 import { BsTwitter } from "react-icons/bs";
+import { ExternalLink } from "react-external-link";
 import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 function Socialmedia() {
   return (
@@ -15,29 +15,29 @@ function Socialmedia() {
       <div className="social_media">
         <ul>
           <li>
-            <Link to="/">
+            <ExternalLink href="https://facebook.com">
               <BsTwitter />
-            </Link>
+            </ExternalLink>
           </li>
           <li>
-            <Link to="/">
+            <ExternalLink href="https://facebook.com">
               <FaFacebookF />
-            </Link>
+            </ExternalLink>
           </li>
           <li>
-            <Link to="/">
+            <ExternalLink href="https://facebook.com">
               <FaInstagram />
-            </Link>
+            </ExternalLink>
           </li>
           <li>
-            <Link to="/">
+            <ExternalLink href="https://facebook.com">
               <FaYoutube />
-            </Link>
+            </ExternalLink>
           </li>
           <li>
-            <Link to="/">
+            <ExternalLink href="https://facebook.com">
               <FaLinkedinIn />
-            </Link>
+            </ExternalLink>
           </li>
         </ul>
       </div>

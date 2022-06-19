@@ -2,6 +2,7 @@ import React from "react";
 import "./TeamMember.css";
 import { Container } from "react-bootstrap";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { ExternalLink } from "react-external-link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -56,16 +57,24 @@ function TeamMember() {
                       <p>{data.TDegination}</p>
                       <div className="team_social">
                         <div className="team_social_icon">
-                          <BsFacebook />
+                          <ExternalLink href="https://facebook.com">
+                            <BsFacebook />
+                          </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <BsTwitter />
+                          <ExternalLink href="https://twitter.com/">
+                            <BsTwitter />
+                          </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <BsInstagram />
+                          <ExternalLink href="https://instagram.com">
+                            <BsInstagram />
+                          </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <BsLinkedin />
+                          <ExternalLink href="https://linkdin.com">
+                            <BsLinkedin />
+                          </ExternalLink>
                         </div>
                       </div>
                     </div>

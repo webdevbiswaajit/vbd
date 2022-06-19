@@ -9,7 +9,7 @@
 }
 .social_media ul li {
   list-style: none;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 .social_media ul li:last-child {
@@ -19,7 +19,7 @@
 .social_media ul li a {
   line-height: 24px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   color: #e74c3c;
 }
 

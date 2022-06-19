@@ -23,7 +23,7 @@ function Faq() {
                   <Col md={6}>
                     <Accordion>
                       <Accordion.Item eventKey="0">
-                        <Accordion.Header>
+                        <Accordion.Header className="accordion_gap">
                           How much does a new website cost?
                         </Accordion.Header>
                         <Accordion.Body>

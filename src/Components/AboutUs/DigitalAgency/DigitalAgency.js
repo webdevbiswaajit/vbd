@@ -8,8 +8,8 @@ function DigitalAgency() {
       <section className="digital_agency">
         <Container>
           <div className="agency_text">
-            <h2>Award Winning Digital Agency</h2>
             <small>Our Company</small>
+            <h2>Award Winning Digital Agency</h2>
             <p>
               Our CEO is The Winner of Bangabandhu Digital Social Innovation
               Award 2020 in INTEGRATED COMMUNITY DEVELOPMENT Group Category.

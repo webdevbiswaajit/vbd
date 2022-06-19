@@ -78,8 +78,8 @@
     margin-right: 0;
   }
   .resourse_content h2 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 25px;
     text-align: center;
   }
   .service_picture img {
@@ -90,5 +90,9 @@
   }
   .know_more {
     margin-bottom: 40px;
+  }
+  .resources_area {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
