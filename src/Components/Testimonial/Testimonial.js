@@ -22,7 +22,7 @@ function Testimonial() {
 
           <Swiper
             slidesPerView={1}
-            spaceBetween={30}
+            spaceBetween={20}
             loop={true}
             autoplay={{
               delay: 2500,
