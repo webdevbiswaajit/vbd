@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "./logo/logo.jpg";
-import google from "../../Images/googlePlay.png";
-import apple from "../../Images/apple_store.png";
+import google from "./logo/google.png";
+import apple from "./logo/apple.png";
 import Socialmedia from "../Socialmedia/Socialmedia";
 import "./Footer.css";
 import FootetBottom from "./FootetBottom";
@@ -55,15 +55,11 @@ function Footer() {
                     <li>
                       <Link to="/services">Services</Link>
                     </li>
-                    <li>
-                      <Link to="/pricing">Pricing</Link>
-                    </li>
+
                     <li>
                       <Link to="/career">Carreer</Link>
                     </li>
-                    <li>
-                      <Link to="/terms-conditions">Terms & Conditions</Link>
-                    </li>
+
                     <li>
                       <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
@@ -72,9 +68,6 @@ function Footer() {
                     </li>
                     <li>
                       <Link to="/data-protection">Data Protection</Link>
-                    </li>
-                    <li>
-                      <Link to="/search">Search</Link>
                     </li>
                   </ul>
                 </div>

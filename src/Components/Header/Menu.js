@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Menu.css";
 import logo from "./logo/logo.jpg";
 function Menu() {
@@ -11,7 +12,9 @@ function Menu() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
           <Navbar.Brand className="navBrand">
-            <img src={logo} alt="logo" />
+            <Link to="/home">
+              <img src={logo} alt="logo" />
+            </Link>
           </Navbar.Brand>
 
           <Navbar.Collapse id="responsive-navbar-nav nav_background">

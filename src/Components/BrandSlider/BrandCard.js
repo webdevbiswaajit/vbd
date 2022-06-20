@@ -4,9 +4,7 @@ import "./BrandSlider.css";
 function BrandCard(props) {
   return (
     <>
-      <div className="brand">
-        <div className="logo_item"></div>
-      </div>
+      <img className="mx-5" src={props.img} alt="" />
     </>
   );
 }

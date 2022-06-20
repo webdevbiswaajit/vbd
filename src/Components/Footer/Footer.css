@@ -122,11 +122,11 @@ footer .media_social {
 }
 
 .googlePlay a img {
-  width: 150px;
+  width: 120px;
 }
 
 .apple_store a img {
-  width: 150px;
+  width: 120px;
 }
 .paly_store {
   display: flex;
@@ -200,5 +200,14 @@ footer .media_social {
   .subsCribe p {
     font-size: 16px;
     line-height: 20px;
+  }
+  .googlePlay a img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .apple_store a img {
+    width: 120px;
+    margin-bottom: 10px;
   }
 }

@@ -64,19 +64,21 @@ function Provide() {
                     <Col md={6}>
                       <div className="banner_content banner_gap">
                         <p>
-                          Bringing your ideas to live, website designs is our
-                          forte. We carve perfect designs to build creative
-                          websites that engage users on both desktop & mobile
-                          devices with its ultra modern responsive UI.
+                          We build interactive mobile apps to extend your reach
+                          to potential customers & maximize conversions. Our App
+                          run seamlessly to deliver amazing mobile user
+                          experience.
                         </p>
 
                         <ul>
-                          <li> Highly Professional Design</li>
-                          <li> Responsive Design</li>
-                          <li> Multi-level Security</li>
-                          <li> payment Gateway </li>
-                          <li> Email Marketing Integration </li>
-                          <li> Dashboard/ Reporting Tools </li>
+                          <li> Custom App Development</li>
+                          <li>
+                            Facebook, Google, Firebase, REST API Integration
+                          </li>
+                          <li> Web Services Apps</li>
+                          <li> PhP API’s Implementation</li>
+                          <li> Beginner friendly </li>
+                          <li>Free updates </li>
                           <li> 120 Days Free Support</li>
                         </ul>
                         <div className="button_area">
@@ -98,20 +100,20 @@ function Provide() {
                     <Col md={6}>
                       <div className="banner_content">
                         <p>
-                          Bringing your ideas to live, website designs is our
-                          forte. We carve perfect designs to build creative
-                          websites that engage users on both desktop & mobile
-                          devices with its ultra modern responsive UI.
+                          Our skilled designers have the experience and
+                          creativity it takes to drive results through graphic &
+                          UI design. We gather information about your brand from
+                          the big picture to the little details and explore your
+                          objectives, so we can deliver creative solutions and
+                          the results you need.
                         </p>
 
                         <ul>
-                          <li> Highly Professional Design</li>
-                          <li> Responsive Design</li>
-                          <li> Multi-level Security</li>
-                          <li> payment Gateway </li>
-                          <li> Email Marketing Integration </li>
-                          <li> Dashboard/ Reporting Tools </li>
-                          <li> 120 Days Free Support</li>
+                          <li> Pixel Perfect UI design</li>
+                          <li>Clean coded</li>
+                          <li>Professional and Creative Designs</li>
+                          <li> Quick Delivery with 3D Mock-ups </li>
+                          <li> Unlimited Revisions </li>
                         </ul>
                         <div className="button_area">
                           <ContuctBtn />
@@ -132,20 +134,20 @@ function Provide() {
                     <Col md={6}>
                       <div className="banner_content banner_gap">
                         <p>
-                          Bringing your ideas to live, website designs is our
-                          forte. We carve perfect designs to build creative
-                          websites that engage users on both desktop & mobile
-                          devices with its ultra modern responsive UI.
+                          We will help in Implementing all levels of Social
+                          media marketing for new and aging websites. For taking
+                          your business to a top, the virtual bd always helps by
+                          marketing.
                         </p>
 
                         <ul>
-                          <li> Highly Professional Design</li>
-                          <li> Responsive Design</li>
-                          <li> Multi-level Security</li>
-                          <li> payment Gateway </li>
-                          <li> Email Marketing Integration </li>
-                          <li> Dashboard/ Reporting Tools </li>
-                          <li> 120 Days Free Support</li>
+                          <li> Social Media Marketing</li>
+                          <li> B2B Lead Generation</li>
+                          <li> Google Ads Marketing </li>
+                          <li> LinkedIn Marketing </li>
+                          <li> Email Marketing</li>
+                          <li> Reporting After Marketing </li>
+                          <li> Free Future consultant</li>
                         </ul>
                         <div className="button_area">
                           <ContuctBtn />

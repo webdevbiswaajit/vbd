@@ -8,10 +8,10 @@ const TeamSlider = [
     img: team1,
     Tname: "Mehedi Hassan",
     TDegination: "Founder & CEO",
-    Tfacebook: "https://www.facebook.com/",
+    Tfacebook: "https://www.linkedin.com/in/mh-ashiq",
     TInstragram: "https://www.instagram.com/",
     Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com/",
+    Tlinkdin: "https://www.linkedin.com/in/mh-ashiq",
   },
   {
     id: 2,
@@ -28,10 +28,10 @@ const TeamSlider = [
     img: team3,
     Tname: "Asaf Ud Dulla",
     TDegination: "Co-Founder & CMO",
-    Tfacebook: "https://www.facebook.com/",
+    Tfacebook: "https://www.facebook.com/KakonCMO",
     TInstragram: "https://www.instagram.com/",
     Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com/",
+    Tlinkdin: "https://www.linkedin.com/in/asaf-ud-dulla-478908187",
   },
 ];
 

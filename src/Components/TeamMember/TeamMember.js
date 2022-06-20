@@ -57,22 +57,22 @@ function TeamMember() {
                       <p>{data.TDegination}</p>
                       <div className="team_social">
                         <div className="team_social_icon">
-                          <ExternalLink href="https://facebook.com">
+                          <ExternalLink href={data.Tfacebook}>
                             <BsFacebook />
                           </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href="https://twitter.com/">
+                          <ExternalLink href={data.Ttwiter}>
                             <BsTwitter />
                           </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href="https://instagram.com">
+                          <ExternalLink href={data.TInstragram}>
                             <BsInstagram />
                           </ExternalLink>
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href="https://linkdin.com">
+                          <ExternalLink href={data.Tlinkdin}>
                             <BsLinkedin />
                           </ExternalLink>
                         </div>

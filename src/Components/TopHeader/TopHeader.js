@@ -3,16 +3,18 @@ import "./TopHeader.css";
 import { Container } from "react-bootstrap";
 import { FaAddressBook } from "react-icons/fa";
 import { BsClock, BsGeoAltFill } from "react-icons/bs";
-
 import Logo from "../../Images/logo.jpg";
 import Socialmedia from "../Socialmedia/Socialmedia";
+import { Link } from "react-router-dom";
 function TopHeader() {
   return (
     <>
       <Container>
         <div className="top_header">
           <div className="logo">
-            <img src={Logo} alt="Logo" />
+            <Link to="/home">
+              <img src={Logo} alt="logo" />
+            </Link>
           </div>
           <div className="info">
             <div className="location">
