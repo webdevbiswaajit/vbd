@@ -1,6 +1,8 @@
 import React from "react";
 import { Tabs, Tab, Container, Col, Row } from "react-bootstrap";
-import web_banner from "../../Images/webBanner.jpg";
+import web_banner from "./img/Web-Design-and-Development.jpg";
+import digital_marketing from "./img/Digital-Marketing-Service.jpg";
+import graphic from "./img/Graphic-and-UI-UX-Design.jpg";
 import ContuctBtn from "../GetStart&Contuct/ContuctUs/ContuctBtn";
 import "./Provide.css";
 
@@ -94,7 +96,7 @@ function Provide() {
                   <Row>
                     <Col md={6}>
                       <div className="banner ">
-                        <img src={web_banner} alt="Web Development" />
+                        <img src={graphic} alt="graphic" />
                       </div>
                     </Col>
                     <Col md={6}>
@@ -128,7 +130,7 @@ function Provide() {
                   <Row>
                     <Col md={6}>
                       <div className="banner ">
-                        <img src={web_banner} alt="Web Development" />
+                        <img src={digital_marketing} alt="digital_marketing" />
                       </div>
                     </Col>
                     <Col md={6}>
