@@ -45,7 +45,7 @@ function Login() {
                     </form>
                     <div className="dont_account">
                       <Link to="/register">
-                        Don’t have an account? Register here.
+                        Don’t have an account? <span> Register here</span>.
                       </Link>
                     </div>
                   </div>

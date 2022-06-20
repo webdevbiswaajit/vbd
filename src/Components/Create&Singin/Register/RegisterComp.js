@@ -48,7 +48,9 @@ function RegisterComp() {
                       </div>
                     </form>
                     <div className="dont_account">
-                      <Link to="/sign-in">Aleready a member? Login here.</Link>
+                      <Link to="/sign-in">
+                        Aleready a member? <span>Login here.</span>
+                      </Link>
                     </div>
                   </div>
                   <SocialLogIn />

@@ -13,6 +13,7 @@
 /* ================== */
 .golobal_button {
   display: flex;
+  justify-content: flex-end;
 }
 
 .global_buis_btn a {

@@ -89,7 +89,7 @@ function Provide() {
                   </Row>
                 </div>
               </Tab>
-              <Tab eventKey="graphic" title="UI & Graphic Design Service">
+              <Tab eventKey="graphic" title="Graphic  & UI/UX  Design Service">
                 <div className="provide_content">
                   <Row>
                     <Col md={6}>

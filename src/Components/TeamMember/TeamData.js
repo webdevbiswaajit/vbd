@@ -1,6 +1,10 @@
 import team1 from "./img/Mehedi.jpg";
 import team2 from "./img/Jarif.jpg";
 import team3 from "./img/Asaf.jpg";
+import team4 from "./img/Ishtiuq-Ahmed-Chowdhury.jpg";
+import team5 from "./img/Shabbir-Hussain.jpg";
+import team6 from "./img/MD.Nasim.jpg";
+import team7 from "./img/biswajit .jpg";
 
 const TeamSlider = [
   {
@@ -9,19 +13,19 @@ const TeamSlider = [
     Tname: "Mehedi Hassan",
     TDegination: "Founder & CEO",
     Tfacebook: "https://www.linkedin.com/in/mh-ashiq",
-    TInstragram: "https://www.instagram.com/",
+    TInstragram: "https://instagram.com/mh_ashiq_?igshid=YmMyMTA2M2Y=",
     Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com/in/mh-ashiq",
+    Tlinkdin: "https://www.linkedin.com/in/mh-ashiq/",
   },
   {
     id: 2,
     img: team2,
     Tname: "Jarif Huda Angon",
     TDegination: "Co-Founder & CTO",
-    Tfacebook: "https://www.facebook.com/",
-    TInstragram: "https://www.instagram.com/",
+    Tfacebook: "https://www.facebook.com/Angon.zarif",
+    TInstragram: "https://instagram.com/angon_zarif?igshid=YmMyMTA2M2Y=",
     Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com/",
+    Tlinkdin: "https://www.linkedin.com/in/jarif-huda-angon",
   },
   {
     id: 3,
@@ -29,9 +33,50 @@ const TeamSlider = [
     Tname: "Asaf Ud Dulla",
     TDegination: "Co-Founder & CMO",
     Tfacebook: "https://www.facebook.com/KakonCMO",
-    TInstragram: "https://www.instagram.com/",
-    Ttwiter: "https://twitter.com/",
+    TInstragram:
+      "https://www.instagram.com/invites/contact/?i=1ncexy37anvtz&utm_content=419g8qc",
     Tlinkdin: "https://www.linkedin.com/in/asaf-ud-dulla-478908187",
+  },
+  {
+    id: 4,
+    img: team4,
+    Tname: "Ishtiuq Ahmed Chowdhury",
+    TDegination: "Graphic & UI/UX Designer",
+    Tfacebook: "https://www.facebook.com/IamIshtiuq",
+    TInstragram: "https://instagram.com/ishtiuqahmed",
+    Ttwiter: "https://twitter.com/ishtiuqahmed",
+    Tlinkdin: "https://www.linkedin.com/in/ishtiuqahmed",
+  },
+  {
+    id: 5,
+    img: team5,
+    Tname: "Sabbir Hossain",
+    TDegination: "Web  Developer",
+    Tfacebook: "https://www.facebook.com/hussainasabbir",
+    TInstragram: "https://instagram.com/",
+    Ttwiter: "https://twitter.com/",
+    Tlinkdin: "https://www.linkedin.com/",
+  },
+  {
+    id: 6,
+    img: team6,
+    Tname: "Md. Nasim Uddin",
+    TDegination: "Digital Marketer",
+    Tfacebook: "https://www.facebook.com/nasim.reza.79677",
+    TInstragram:
+      "https://www.instagram.com/invites/contact/?i=1b0rcw7q1yh8o&utm_content=msptg9k",
+    Ttwiter: "https://twitter.com/",
+    Tlinkdin:
+      "https://www.linkedin.com/in/md-nasim-uddin-a76683237?fbclid=IwAR2Lo8m5PWqHadoyp1nF2kvmG_uHV5iSSpOBWcjzvb12pcGYs8Er73KL65E",
+  },
+  {
+    id: 7,
+    img: team7,
+    Tname: "Biswajit Sikdar",
+    TDegination: "Web Designer",
+    Tfacebook: "https://www.facebook.com/biswajit.sikder.7549/",
+    TInstragram: "https://www.instagram.com/biswajit_sikdar51",
+    Tlinkdin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
   },
 ];
 

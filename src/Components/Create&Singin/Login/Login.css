@@ -117,12 +117,15 @@
 }
 
 .dont_account a {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   color: rgba(44, 62, 80, 0.8);
   margin-top: 10px;
   display: block;
+}
+.dont_account span {
+  color: #3498db;
 }
 
 /* ============== */

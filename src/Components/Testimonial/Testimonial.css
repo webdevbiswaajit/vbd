@@ -27,18 +27,18 @@
 .review_card {
   background-color: #fff;
   padding: 35px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   margin-top: 50px;
   transition: 0.5s all ease;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   -ms-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .review_card:hover {
   box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
@@ -106,7 +106,7 @@
     padding-bottom: 20px;
   }
   .tetiomial .swiper {
-    height: 440px !important;
+    height: 460px !important;
   }
   .testimonial_head h2 {
     font-size: 18px;
