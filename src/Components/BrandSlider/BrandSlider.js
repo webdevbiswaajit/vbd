@@ -10,18 +10,16 @@ function BrandSlider() {
   return (
     <>
       <section className="brandSlider">
-        <Container>
-          <div className="brand_text">
-            <h2>OUR PARTNERS</h2>
-          </div>
-          <div className="nice">
-            <Marquee gradient={false} speed={30}>
-              {BrandData.map((data) => (
-                <BrandCard key={data.id} img={data.img} />
-              ))}
-            </Marquee>
-          </div>
-        </Container>
+        <div className="brand_text">
+          <h2>OUR PARTNERS</h2>
+        </div>
+        <div className="nice">
+          <Marquee gradient={false} speed={30}>
+            {BrandData.map((data) => (
+              <BrandCard key={data.id} img={data.img} />
+            ))}
+          </Marquee>
+        </div>
       </section>
     </>
   );
