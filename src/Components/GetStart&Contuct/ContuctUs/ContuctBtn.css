@@ -52,3 +52,11 @@
   border: 2px solid #e74c3c;
   color: #e74c3c;
 }
+@media only screen and (max-width: 768px) {
+  .global_contuct_btn a {
+    padding: 10px 25px;
+  }
+  .global_started_btn a {
+    padding: 10px 25px;
+  }
+}

@@ -6,17 +6,17 @@ const introduction = [
   {
     id: 1,
     intro_text:
-      "Winner of Bangabandhu Digital Social Innovation Award 2020. Also the Founder of Dinghy Foundation And EJhuli (ECommerce Platform). Not Only an entrepreneur he is also An young Researcher. He has more than 4 Publication and Now he is Working For Q1 Journal. He is Also Volunteer at Asian Network of Youth Volunteers Society,",
+      "Bangabandhu Digital Social Innovation Award 2020 winner In addition, he is the founder of the Dinghy Foundation and EJhuli (ECommerce Platform). He is not just an entrepreneur, but also a young researcher. He has over 19 publications and is currently attempting to develop viable solutions to several epidemic diseases. He also helps out at the Asian Network of Youth Volunteers Society.",
     intro_person:
-      "Ambassador at IEEE SPAW 2.0, Ambassador at Global Peace Chain, GGF Cultural Ambassador at Global Governance Foundation, Campus Ambassador at International Youth Society, Delegate at Asia World Model United Nations.",
+      "IEEE SPAW 2.0 Ambassador, Global Peace Chain Ambassador, GGF Cultural Ambassador, Global Governance Foundation, International Youth Society Campus Ambassador, Asia World Model United Nations Delegate.",
 
     name: "Mehedi Hassan",
     pic: ceo,
     designation: "Founder & CEO",
-    twitter: "https://twitter.com/BISWAJI50403190",
-    facebook: "https://www.facebook.com/biswajit.sikder.7549",
-    instragram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
+    twitter: "https://twitter.com/MehediCEO",
+    facebook: "https://www.facebook.com/MhashiqCEO",
+    instragram: "https://instagram.com/mh_ashiq_?igshid=YmMyMTA2M2Y=",
+    linkedin: "https://www.linkedin.com/in/mh-ashiq/",
   },
   {
     id: 2,
@@ -28,10 +28,10 @@ const introduction = [
     name: "Jarif Huda Angon",
     pic: cto,
     designation: "Co-Founder & CTO",
-    twitter: "https://twitter.com/BISWAJI50403190",
-    facebook: "https://www.facebook.com/biswajit.sikder.7549",
-    instragram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
+    twitter: "https://twitter.com/",
+    facebook: "https://www.facebook.com/Angon.zarif",
+    instragram: "https://instagram.com/angon_zarif?igshid=YmMyMTA2M2Y=",
+    linkedin: "https://www.linkedin.com/in/jarif-huda-angon",
   },
   {
     id: 3,
@@ -43,10 +43,11 @@ const introduction = [
     name: "Asaf Ud Dulla",
     pic: cmo,
     designation: "Co-Founder & CMO",
-    twitter: "https://twitter.com/BISWAJI50403190",
-    facebook: "https://www.facebook.com/biswajit.sikder.7549",
-    instragram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
+    twitter: "https://twitter.com/",
+    facebook: "https://www.facebook.com/KakonCMO",
+    instragram:
+      "https://www.instagram.com/invites/contact/?i=1ncexy37anvtz&utm_content=419g8qc",
+    linkedin: "https://www.linkedin.com/in/asaf-ud-dulla-478908187",
   },
 ];
 

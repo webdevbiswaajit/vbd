@@ -19,7 +19,7 @@ function MyVerticallyCenteredModal(props) {
         muted={true}
         controls={true}
         volume={1}
-        width="80wh"
+        width="100wh"
         height="60vh"
         onReady={() => console.log("ready now")}
       />

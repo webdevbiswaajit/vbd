@@ -83,6 +83,7 @@
     flex-wrap: inherit;
     align-items: center;
     justify-content: center;
+    margin-top: -10px;
   }
   .navBrand {
     display: inline !important;
