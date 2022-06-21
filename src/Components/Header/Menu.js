@@ -32,14 +32,14 @@ function Menu() {
                 <Link to="/aboutus">About Us</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/blog">Blog </Link>
+                <Link to="/contuct">Contact </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/career">Career</Link>
               </Nav.Link>
-              <Nav.Link>
+              {/* <Nav.Link>
                 <Link to="/other">Other</Link>
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
 
             <Nav.Link className="sing_area">

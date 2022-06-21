@@ -100,10 +100,6 @@ ul {
   background: #e74c3c;
 }
 
-.banner_gap {
-  margin-left: 0;
-  margin-right: 30px;
-}
 /* ====================Responsive================== */
 
 @media only screen and (max-width: 768px) {
