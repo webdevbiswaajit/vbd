@@ -35,6 +35,7 @@ const TeamSlider = [
     Tfacebook: "https://www.facebook.com/KakonCMO",
     TInstragram:
       "https://www.instagram.com/invites/contact/?i=1ncexy37anvtz&utm_content=419g8qc",
+    Ttwiter: "https://twitter.com/",
     Tlinkdin: "https://www.linkedin.com/in/asaf-ud-dulla-478908187",
   },
   {
@@ -76,6 +77,7 @@ const TeamSlider = [
     TDegination: "Web Designer",
     Tfacebook: "https://www.facebook.com/biswajit.sikder.7549/",
     TInstragram: "https://www.instagram.com/biswajit_sikdar51",
+    Ttwiter: "https://twitter.com/",
     Tlinkdin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
   },
 ];

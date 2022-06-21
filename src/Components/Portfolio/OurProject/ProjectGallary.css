@@ -121,16 +121,16 @@
 
 .loadMore button {
   background: #3498db;
+  border: 2px solid #3498db;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   color: #fff;
   padding: 12px 40px;
-  border: none;
-  transition: 0.2sall ease;
-  -webkit-transition: 0.2sall ease;
-  -moz-transition: 0.2sall ease;
-  -ms-transition: 0.2sall ease;
-  -o-transition: 0.2sall ease;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
 }
 .loadMore button:hover {
   background: #fff;
