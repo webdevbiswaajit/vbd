@@ -23,7 +23,7 @@ function TeamMember() {
           <div className="team_slider">
             <Swiper
               slidesPerView={1}
-              spaceBetween={110}
+              spaceBetween={50}
               loop={true}
               autoplay={{
                 delay: 3500,
@@ -37,9 +37,12 @@ function TeamMember() {
                   slidesPerView: 1,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 1024: {
+                  slidesPerView: 3,
+                },
+                1360: {
                   slidesPerView: 3,
                 },
               }}

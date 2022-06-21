@@ -87,6 +87,7 @@
   height: 440px !important;
   padding-right: 5px;
 }
+
 @media only screen and (max-width: 768px) {
   .teamMember_head h2 {
     font-size: 16px;
@@ -96,5 +97,10 @@
   .teamMember_area {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .team_slider {
+    margin-left: 50px;
   }
 }
