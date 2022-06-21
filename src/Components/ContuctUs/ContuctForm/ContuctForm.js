@@ -22,7 +22,7 @@ function ContuctForm() {
                     <h1>01711 666 603</h1>
                   </div>
                   <div className="contuct_btn">
-                    <Link to="/">Contact Us</Link>
+                    <Link to="/sign-in">Contact Us</Link>
                   </div>
                 </div>
               </div>

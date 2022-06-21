@@ -28,7 +28,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="career" element={<Career />} />
         <Route path="/other" element={<Other />} />
-        <Route path="/contuct" element={<ContuctUs />} />
+        <Route path="/contact" element={<ContuctUs />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-conditions" element={<TermsCondition />} />

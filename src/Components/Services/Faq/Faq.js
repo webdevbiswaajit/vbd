@@ -8,8 +8,8 @@ function Faq() {
     <>
       <Container>
         <div className="provide_top ">
-          <h2>Frequently Ask Questions</h2>
           <p>Questions</p>
+          <h2>Frequently Ask Questions</h2>
         </div>
         <div className="provide_tabs">
           <Tabs

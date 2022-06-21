@@ -1,10 +1,20 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import "./Menu.css";
 import logo from "./logo/logo.jpg";
 function Menu() {
+  const getClass = (navData) => (navData.isActive ? "navActive" : "link");
+  const routes = [
+    { text: "Home", uri: "/home" },
+    { text: "Services", uri: "/services" },
+    { text: "Portfolio", uri: "/portfolio" },
+    { text: "About Us", uri: "/aboutus" },
+    { text: "Contact", uri: "/contact" },
+    { text: "Career", uri: "/career" },
+  ];
+
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="navBg" sticky="top">
@@ -19,27 +29,13 @@ function Menu() {
 
           <Navbar.Collapse id="responsive-navbar-nav nav_background">
             <Nav className="me-auto">
-              <Nav.Link>
-                <Link to="/home">Home</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/services">Services</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/portfolio"> Portfolio</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/aboutus">About Us</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/contuct">Contact </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/career">Career</Link>
-              </Nav.Link>
-              {/* <Nav.Link>
-                <Link to="/other">Other</Link>
-              </Nav.Link> */}
+              {routes.map((item, index) => (
+                <Nav.Link key={index}>
+                  <NavLink className={getClass} to={item.uri}>
+                    {item.text}
+                  </NavLink>
+                </Nav.Link>
+              ))}
             </Nav>
 
             <Nav.Link className="sing_area">

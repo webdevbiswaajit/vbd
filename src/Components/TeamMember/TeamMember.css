@@ -72,15 +72,14 @@
   margin: 10px;
   margin-top: -20px;
 }
-.team_card:hover {
+
+.team_card:hover .team_social {
+  display: flex;
   transition: 0.5s all ease;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   -ms-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
-}
-.team_card:hover .team_social {
-  display: flex;
 }
 .teamMember_area .swiper {
   width: 100%;

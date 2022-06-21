@@ -62,9 +62,10 @@
 .navBrand img {
   width: 100%;
 }
-.navbar-light .navbar-nav .nav-link:hover a {
+.navbar-light .navbar-nav .nav-link:hover a,
+.navActive {
   border-bottom: 2px solid #fff;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   padding-top: 15px;
 }
 /* =====================Responsive=========== */
@@ -83,7 +84,7 @@
     flex-wrap: inherit;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: 0px;
   }
   .navBrand {
     display: inline !important;

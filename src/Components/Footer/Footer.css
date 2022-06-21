@@ -166,6 +166,9 @@ footer .media_social {
   font-size: 20px;
   margin-right: 5px;
 }
+.copy span {
+  color: #3498db;
+}
 .logo_footer {
   width: 100%;
   display: flex;

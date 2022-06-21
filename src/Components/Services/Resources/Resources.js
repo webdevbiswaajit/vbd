@@ -13,10 +13,11 @@ function Resources() {
           <Row>
             <Col md={6} sm={12}>
               <div className="resourse_content">
+                <small>Our Dedicated Resources</small>
                 <h2>
                   Sacrifices are made up <br /> with success
                 </h2>
-                <small>Our Dedicated Resources</small>
+
                 <p>
                   We are not just a virtual team, we're your offshore partners
                   when it comes to executing & monitoring projects. Hire
