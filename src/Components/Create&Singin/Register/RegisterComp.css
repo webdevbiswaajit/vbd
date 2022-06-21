@@ -93,11 +93,11 @@
 }
 
 .control_area a {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   text-align: right;
-  color: rgba(44, 62, 80, 0.8);
+  color: #3498db;
 }
 
 .form_submit button {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+
 import "./Menu.css";
 import logo from "./logo/logo.jpg";
 function Menu() {

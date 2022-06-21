@@ -23,13 +23,18 @@
 .logSocial ul li {
   list-style: none;
   text-align: center;
-  color: #fff;
   margin: 10px;
   font-size: 20px;
+}
+.logSocial ul li a {
+  color: #fff;
 }
 @media only screen and (max-width: 768px) {
   .logimg img {
     margin-left: 0;
     padding: 0px;
+  }
+  .log_back {
+    display: none;
   }
 }

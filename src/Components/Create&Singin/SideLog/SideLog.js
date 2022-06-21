@@ -1,6 +1,7 @@
 import React from "react";
 import "./SideLog.css";
 import backLog from "./img/socialCover.jpg";
+import { ExternalLink } from "react-external-link";
 import {
   BsFacebook,
   BsTwitter,
@@ -19,20 +20,30 @@ function SideLog() {
         <div className="logSocial">
           <ul>
             <li>
-              <BsTwitter />
-            </li>
-            <li>
-              <BsFacebook />
+              <ExternalLink href="https://twitter.com">
+                <BsTwitter />
+              </ExternalLink>
             </li>
 
             <li>
-              <BsInstagram />
+              <ExternalLink href="https://www.facebook.com/TheVirtualBD">
+                <BsFacebook />
+              </ExternalLink>
             </li>
             <li>
-              <BsYoutube />
+              <ExternalLink href="https://instagram.com">
+                <BsInstagram />
+              </ExternalLink>
             </li>
             <li>
-              <BsLinkedin />
+              <ExternalLink href="https://youtube.com">
+                <BsYoutube />
+              </ExternalLink>
+            </li>
+            <li>
+              <ExternalLink href="https://www.linkedin.com/company/thevirtualbd/?fbclid=IwAR2m8FL5D5L5m6wGU4-JNUfUp23_CN_HtRxDrRTJ0G3mPWaKu4VUUCK-WrI">
+                <BsLinkedin />
+              </ExternalLink>
             </li>
           </ul>
         </div>

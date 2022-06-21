@@ -127,6 +127,9 @@
 .dont_account span {
   color: #3498db;
 }
+.forgetPass a {
+  color: #3498db;
+}
 
 /* ============== */
 @media only screen and (max-width: 768px) {

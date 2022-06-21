@@ -1,7 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "./BrandSlider.css";
-
 import Marquee from "react-fast-marquee";
 import BrandData from "./BrandData";
 import BrandCard from "./BrandCard.js";
