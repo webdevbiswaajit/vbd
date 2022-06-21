@@ -2,7 +2,7 @@
   background-image: url(./img/herobac.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
   position: relative;
   z-index: 1;
@@ -63,7 +63,9 @@
 .heartbeat {
   animation: heartbeat 2s infinite;
 }
-
+.modal-content {
+  width: 100% !important;
+}
 @keyframes heartbeat {
   from {
     transform: scale(1);
@@ -124,4 +126,8 @@
     margin-top: 15px;
     margin-right: 10px;
   }
+}
+.vedio_area {
+  width: 640px;
+  height: 360px;
 }
