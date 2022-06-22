@@ -12,7 +12,7 @@ const TeamSlider = [
     img: team1,
     Tname: "Mehedi Hassan",
     TDegination: "Founder & CEO",
-    Tfacebook: "https://www.linkedin.com/in/mh-ashiq",
+    Tfacebook: "https://www.facebook.com/MhashiqCEO",
     TInstragram: "https://instagram.com/mh_ashiq_?igshid=YmMyMTA2M2Y=",
     Ttwiter: "https://twitter.com/",
     Tlinkdin: "https://www.linkedin.com/in/mh-ashiq/",

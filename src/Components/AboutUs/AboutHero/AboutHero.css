@@ -39,7 +39,7 @@
   .about_hero {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-top: -5px;
+    margin-top: 44px;
   }
   .about_text h2 {
     font-size: 30px;
@@ -47,8 +47,5 @@
   .about_hero {
     padding-top: 50px;
     padding-bottom: 50px;
-  }
-  .about_hero {
-    margin-top: -5px;
   }
 }

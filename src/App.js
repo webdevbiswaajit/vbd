@@ -35,6 +35,7 @@ function App() {
         <Route path="/sign-in" element={<SingnIn />} />
         <Route path="/register" element={<Register />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/data-protection" element={<PrivacyPolicy />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>

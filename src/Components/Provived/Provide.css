@@ -151,4 +151,8 @@ ul {
   .banner_content {
     margin: 10px;
   }
+  .button_area {
+    display: flex;
+    justify-content: center;
+  }
 }

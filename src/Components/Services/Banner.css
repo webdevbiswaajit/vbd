@@ -78,6 +78,7 @@
 @media only screen and (max-width: 768px) {
   .banner_area {
     margin-top: -5px;
+    margin-top: 44px;
     height: 20vh;
   }
   .banner_area h2 {
@@ -86,6 +87,10 @@
   }
   .search {
     width: 300px;
+  }
+  search input {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .resourse_content small {
     text-align: center;
