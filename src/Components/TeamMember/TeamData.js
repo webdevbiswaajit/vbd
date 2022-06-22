@@ -54,8 +54,8 @@ const TeamSlider = [
     Tname: "Sabbir Hossain",
     TDegination: "Web  Developer",
     Tfacebook: "https://www.facebook.com/hussainasabbir",
-    TInstragram: "https://instagram.com/",
-    Ttwiter: "https://twitter.com/",
+    TInstragram: "https://www.instagram.com/md.sabbirbappy/",
+    Ttwiter: "https://twitter.com/shussain8978",
     Tlinkdin: "https://www.linkedin.com/",
   },
   {

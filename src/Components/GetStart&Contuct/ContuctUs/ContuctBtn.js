@@ -10,7 +10,7 @@ function ContuctBtn() {
           <Link to="/services">Get Started</Link>
         </div>
         <div className="global_contuct_btn">
-          <Link to="/contuct">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </div>
       </div>
     </>
