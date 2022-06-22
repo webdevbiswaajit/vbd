@@ -11,7 +11,8 @@ function Counter() {
           <Row>
             <Col md={3}>
               <div className="counting">
-                <CountUp end={459} duration={2} /> <span>+</span>
+                <CountUp end={459} duration={2} />
+                <span>+</span>
               </div>
               <div className="counter_info">
                 <p>Happy Clients</p>

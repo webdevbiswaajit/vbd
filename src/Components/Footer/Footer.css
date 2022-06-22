@@ -177,6 +177,12 @@ footer .media_social {
 .logo_footer img {
   width: 100%;
 }
+.footerVBottom span a {
+  color: #3498db;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 /* ========================Responsive=================== */
 
@@ -224,10 +230,4 @@ footer .media_social {
     width: 120px;
     margin-bottom: 10px;
   }
-}
-.footerVBottom span {
-  color: #3498db;
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
 }

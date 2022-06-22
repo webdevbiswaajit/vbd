@@ -26,8 +26,9 @@ function TeamMember() {
               spaceBetween={50}
               loop={true}
               autoplay={{
-                delay: 3500,
+                delay: 2500,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
               }}
               pagination={{
                 clickable: true,
