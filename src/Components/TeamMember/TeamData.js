@@ -5,6 +5,8 @@ import team4 from "./img/Ishtiuq-Ahmed-Chowdhury.jpg";
 import team5 from "./img/Shabbir-Hussain.jpg";
 import team6 from "./img/MD.Nasim.jpg";
 import team7 from "./img/biswajit .jpg";
+import team8 from "./img/Parag-Khan.jpg";
+import team9 from "./img/Mehadi-Hasan-Shakil.jpg";
 
 const TeamSlider = [
   {
@@ -79,6 +81,26 @@ const TeamSlider = [
     TInstragram: "https://www.instagram.com/biswajit_sikdar51",
     Ttwiter: "https://twitter.com/",
     Tlinkdin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
+  },
+  {
+    id: 8,
+    img: team8,
+    Tname: "Parag Khan",
+    TDegination: "Senior Web Developer",
+    Tfacebook: "https://www.facebook.com",
+    TInstragram: "https://www.instagram.com",
+    Ttwiter: "https://twitter.com/",
+    Tlinkdin: "https://www.linkedin.com",
+  },
+  {
+    id: 9,
+    img: team9,
+    Tname: "Mehadi Hasan Shakil",
+    TDegination: "Data Analytics Intern",
+    Tfacebook: "https://www.facebook.com",
+    TInstragram: "https://www.instagram.com",
+    Ttwiter: "https://twitter.com/",
+    Tlinkdin: "https://www.linkedin.com",
   },
 ];
 
