@@ -11,7 +11,7 @@ function Counter() {
           <Row>
             <Col md={3}>
               <div className="counting">
-                <CountUp end={459} duration={2} />
+                <CountUp enableScrollSpy={true} end={459} duration={2} />
                 <span>+</span>
               </div>
               <div className="counter_info">
@@ -21,7 +21,8 @@ function Counter() {
 
             <Col md={3}>
               <div className="counting">
-                <CountUp end={356} duration={2} /> <span>+</span>
+                <CountUp enableScrollSpy={true} end={356} duration={2} />{" "}
+                <span>+</span>
               </div>
               <div className="counter_info">
                 <p>Finished Projects</p>
@@ -30,7 +31,8 @@ function Counter() {
 
             <Col md={3}>
               <div className="counting">
-                <CountUp end={46} duration={2} /> <span>+</span>
+                <CountUp enableScrollSpy={true} end={46} duration={2} />{" "}
+                <span>+</span>
               </div>
               <div className="counter_info">
                 <p>Skilled Experts</p>
@@ -39,7 +41,8 @@ function Counter() {
 
             <Col md={3}>
               <div className="counting">
-                <CountUp end={100} duration={2} /> <span>%</span>
+                <CountUp enableScrollSpy={true} end={100} duration={2} />{" "}
+                <span>%</span>
               </div>
               <div className="counter_info">
                 <p>Satisfaction Rate</p>

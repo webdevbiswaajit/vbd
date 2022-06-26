@@ -1,13 +1,12 @@
 import React from "react";
 import "./Socialmedia.css";
-import { BsTwitter } from "react-icons/bs";
+import { Icon } from "@iconify/react";
+import facebookWithCircle from "@iconify/icons-entypo-social/facebook-with-circle";
+import twitterWithCircle from "@iconify/icons-entypo-social/twitter-with-circle";
+import instagramWithCircle from "@iconify/icons-entypo-social/instagram-with-circle";
+import youtubeWithCircle from "@iconify/icons-entypo-social/youtube-with-circle";
+import linkedinWithCircle from "@iconify/icons-entypo-social/linkedin-with-circle";
 import { ExternalLink } from "react-external-link";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
 
 function Socialmedia() {
   return (
@@ -16,27 +15,27 @@ function Socialmedia() {
         <ul>
           <li>
             <ExternalLink href="https://www.twitter.com">
-              <BsTwitter />
+              <Icon icon={twitterWithCircle} />
             </ExternalLink>
           </li>
           <li>
             <ExternalLink href="https://www.facebook.com/TheVirtualBD">
-              <FaFacebookF />
+              <Icon icon={facebookWithCircle} />
             </ExternalLink>
           </li>
           <li>
             <ExternalLink href="https://instagram.com">
-              <FaInstagram />
+              <Icon icon={instagramWithCircle} />
             </ExternalLink>
           </li>
           <li>
             <ExternalLink href="https://youtube.com">
-              <FaYoutube />
+              <Icon icon={youtubeWithCircle} />
             </ExternalLink>
           </li>
           <li>
             <ExternalLink href="https://www.linkedin.com/company/thevirtualbd/?fbclid=IwAR2m8FL5D5L5m6wGU4-JNUfUp23_CN_HtRxDrRTJ0G3mPWaKu4VUUCK-WrI">
-              <FaLinkedinIn />
+              <Icon icon={linkedinWithCircle} />
             </ExternalLink>
           </li>
         </ul>

@@ -2,11 +2,13 @@
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 .intro_img {
   width: 400px;
   display: flex;
   align-items: center;
 }
+
 /* ===============Responsive================ */
 
 @media only screen and (max-width: 768px) {
@@ -14,37 +16,46 @@
     font-size: 18px;
     line-height: 20px;
   }
+
   .intro_img {
     width: 100%;
   }
+
   .intro_img img {
     display: flex;
     justify-content: center;
   }
+
   .author_info {
     margin-left: 0;
     text-align: center;
   }
+
   .author_text p {
     padding: 5px;
     margin-left: -10%;
     margin-top: 20px;
   }
+
   .author_info h3 {
     text-align: center;
   }
+
   .author_info small {
     text-align: center;
   }
+
   .author_social_media ul {
     display: flex;
     justify-content: center;
+
   }
+
   .intro_area {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
+
 /* ============Responsive============ */
-@media only screen and (max-width: 768px) {
-}
+@media only screen and (max-width: 768px) {}

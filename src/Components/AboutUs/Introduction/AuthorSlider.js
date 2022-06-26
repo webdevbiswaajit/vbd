@@ -10,13 +10,12 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay } from "swiper";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+import { ExternalLink } from "react-external-link";
+import { Icon } from "@iconify/react";
+import facebookWithCircle from "@iconify/icons-entypo-social/facebook-with-circle";
+import twitterWithCircle from "@iconify/icons-entypo-social/twitter-with-circle";
+import instagramWithCircle from "@iconify/icons-entypo-social/instagram-with-circle";
+import linkedinWithCircle from "@iconify/icons-entypo-social/linkedin-with-circle";
 import introduction from "./Data";
 
 function AuthorSlider() {
@@ -57,24 +56,24 @@ function AuthorSlider() {
                     <div className="author_social_media">
                       <ul>
                         <li>
-                          <Link to="/">
-                            <FaTwitter />
-                          </Link>
+                          <ExternalLink href={data.twitter}>
+                            <Icon icon={twitterWithCircle} />
+                          </ExternalLink>
                         </li>
                         <li>
-                          <Link to="/">
-                            <FaFacebookF />
-                          </Link>
+                          <ExternalLink href={data.facebook}>
+                            <Icon icon={facebookWithCircle} />
+                          </ExternalLink>
                         </li>
                         <li>
-                          <Link to="/">
-                            <FaInstagram />
-                          </Link>
+                          <ExternalLink href={data.instragram}>
+                            <Icon icon={instagramWithCircle} />
+                          </ExternalLink>
                         </li>
                         <li>
-                          <Link to="/">
-                            <FaLinkedinIn />
-                          </Link>
+                          <ExternalLink href={data.linkedin}>
+                            <Icon icon={linkedinWithCircle} />
+                          </ExternalLink>
                         </li>
                       </ul>
                     </div>

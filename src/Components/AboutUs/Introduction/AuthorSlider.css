@@ -1,4 +1,4 @@
-.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
@@ -83,8 +83,10 @@
 }
 
 .author_social_media ul {
+  margin-left: -34px;
+  margin-top: 10px;
   display: flex;
-  margin-left: -30px;
+
 }
 
 .author_social_media ul li {
@@ -93,9 +95,9 @@
 }
 
 .author_social_media ul li a {
-  line-height: 8px;
+  line-height: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   color: #e74c3c;
 }
 
@@ -117,7 +119,18 @@
 .swiper-button-prev:after {
   display: none;
 }
+
 /* ===============Responsive================ */
 
 @media only screen and (max-width: 768px) {
+  .author_social_media {
+    margin-right: -15px;
+  }
+
+  .author_social_media ul {
+    margin-left: -30px;
+    margin-top: 10px;
+    display: flex;
+
+  }
 }

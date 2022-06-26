@@ -1,0 +1,71 @@
+.service_button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.service_started_btn a {
+    background: #3498db;
+    border: 2px solid #3498db;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 10px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.2s all ease;
+}
+
+.service_started_btn a:hover {
+    background: #fff;
+    border: 2px solid #3498db;
+    color: #3498db;
+}
+
+.service_contuct_btn a {
+    background: #e74c3c;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 20%);
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.2s all ease;
+}
+
+.service_contuct_btn a:hover {
+    background: #fff;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+}
+
+@media only screen and (max-width: 768px) {
+    .service_contuct_btn a {
+        padding: 10px 25px;
+    }
+
+    .service_started_btn a {
+        padding: 10px 25px;
+    }
+
+    .service_button {
+        display: flex;
+        justify-content: center;
+    }
+}

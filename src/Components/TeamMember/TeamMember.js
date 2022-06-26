@@ -2,6 +2,7 @@ import React from "react";
 import "./TeamMember.css";
 import { Container } from "react-bootstrap";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 import { ExternalLink } from "react-external-link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -61,24 +62,39 @@ function TeamMember() {
                       <p>{data.TDegination}</p>
                       <div className="team_social">
                         <div className="team_social_icon">
-                          <ExternalLink href={data.Tfacebook}>
-                            <BsFacebook />
-                          </ExternalLink>
+                          {data.Tfacebook && (
+                            <ExternalLink href={data.Tfacebook}>
+                              <BsFacebook />
+                            </ExternalLink>
+                          )}
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href={data.Ttwiter}>
-                            <BsTwitter />
-                          </ExternalLink>
+                          {data.Ttwiter && (
+                            <ExternalLink href={data.Ttwiter}>
+                              <BsTwitter />
+                            </ExternalLink>
+                          )}
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href={data.TInstragram}>
-                            <BsInstagram />
-                          </ExternalLink>
+                          {data.TInstragram && (
+                            <ExternalLink href={data.TInstragram}>
+                              <BsInstagram />
+                            </ExternalLink>
+                          )}
                         </div>
                         <div className="team_social_icon">
-                          <ExternalLink href={data.Tlinkdin}>
-                            <BsLinkedin />
-                          </ExternalLink>
+                          {data.Tlinkdin && (
+                            <ExternalLink href={data.Tlinkdin}>
+                              <BsLinkedin />
+                            </ExternalLink>
+                          )}
+                        </div>
+                        <div className="team_social_icon">
+                          {data.Tgmail && (
+                            <ExternalLink href={data.Tgmail}>
+                              <SiGmail />
+                            </ExternalLink>
+                          )}
                         </div>
                       </div>
                     </div>

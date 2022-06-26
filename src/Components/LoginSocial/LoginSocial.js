@@ -1,42 +1,29 @@
 import React from "react";
 import "./LoginSocial.css";
-import { BsTwitter } from "react-icons/bs";
 import { ExternalLink } from "react-external-link";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { Icon } from "@iconify/react";
+import googleContainedFill from "@iconify/icons-akar-icons/google-contained-fill";
+import facebookFill from "@iconify/icons-akar-icons/facebook-fill";
+import linkedinWithCircle from "@iconify/icons-entypo-social/linkedin-with-circle";
 
 function LoginSocial() {
   return (
     <>
       <section className="login_ocial">
         <ul>
-          <li>
-            <ExternalLink href="https://facebook.com">
-              <BsTwitter />
+          <li className="google">
+            <ExternalLink href="https://www.google.com/">
+              <Icon icon={googleContainedFill} />
             </ExternalLink>
           </li>
-          <li>
-            <ExternalLink href="https://facebook.com">
-              <FaFacebookF />
+          <li className="facebook">
+            <ExternalLink href="">
+              <Icon icon={facebookFill} />
             </ExternalLink>
           </li>
-          <li>
-            <ExternalLink href="https://facebook.com">
-              <FaInstagram />
-            </ExternalLink>
-          </li>
-          <li>
-            <ExternalLink href="https://facebook.com">
-              <FaYoutube />
-            </ExternalLink>
-          </li>
-          <li>
-            <ExternalLink href="https://facebook.com">
-              <FaLinkedinIn />
+          <li className="linkdin">
+            <ExternalLink href="">
+              <Icon icon={linkedinWithCircle} />
             </ExternalLink>
           </li>
         </ul>

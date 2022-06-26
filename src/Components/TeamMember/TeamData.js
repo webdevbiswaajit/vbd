@@ -7,6 +7,8 @@ import team6 from "./img/MD.Nasim.jpg";
 import team7 from "./img/biswajit .jpg";
 import team8 from "./img/Parag-Khan.jpg";
 import team9 from "./img/Mehadi-Hasan-Shakil.jpg";
+import team10 from "./img/Hedayet.jpg";
+import team11 from "./img/Md-Shahajalal.jpg";
 
 const TeamSlider = [
   {
@@ -42,65 +44,61 @@ const TeamSlider = [
   },
   {
     id: 4,
-    img: team4,
-    Tname: "Ishtiuq Ahmed Chowdhury",
-    TDegination: "Graphic & UI/UX Designer",
-    Tfacebook: "https://www.facebook.com/IamIshtiuq",
-    TInstragram: "https://instagram.com/ishtiuqahmed",
-    Ttwiter: "https://twitter.com/ishtiuqahmed",
-    Tlinkdin: "https://www.linkedin.com/in/ishtiuqahmed",
-  },
-  {
-    id: 5,
-    img: team5,
-    Tname: "Sabbir Hossain",
-    TDegination: "Web  Developer",
-    Tfacebook: "https://www.facebook.com/hussainasabbir",
-    TInstragram: "https://www.instagram.com/md.sabbirbappy/",
-    Ttwiter: "https://twitter.com/shussain8978",
-    Tlinkdin: "https://www.linkedin.com/",
-  },
-  {
-    id: 6,
-    img: team6,
-    Tname: "Md. Nasim Uddin",
-    TDegination: "Digital Marketer",
-    Tfacebook: "https://www.facebook.com/nasim.reza.79677",
-    TInstragram:
-      "https://www.instagram.com/invites/contact/?i=1b0rcw7q1yh8o&utm_content=msptg9k",
-    Ttwiter: "https://twitter.com/",
-    Tlinkdin:
-      "https://www.linkedin.com/in/md-nasim-uddin-a76683237?fbclid=IwAR2Lo8m5PWqHadoyp1nF2kvmG_uHV5iSSpOBWcjzvb12pcGYs8Er73KL65E",
-  },
-  {
-    id: 7,
-    img: team7,
-    Tname: "Biswajit Sikdar",
-    TDegination: "Web Designer",
-    Tfacebook: "https://www.facebook.com/biswajit.sikder.7549/",
-    TInstragram: "https://www.instagram.com/biswajit_sikdar51",
-    Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com/in/biswajit-sikdar-9452881b5/",
-  },
-  {
-    id: 8,
     img: team8,
     Tname: "Parag Khan",
     TDegination: "Senior Web Developer",
-    Tfacebook: "https://www.facebook.com",
-    TInstragram: "https://www.instagram.com",
-    Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
   },
+
+  {
+    id: 5,
+    img: team4,
+    Tname: "Ishtiuq Ahmed Chowdhury",
+    TDegination: "Graphic & UI/UX Designer",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+  {
+    id: 6,
+    img: team5,
+    Tname: "Sabbir Hossain",
+    TDegination: "Web  Developer",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+  {
+    id: 7,
+    img: team6,
+    Tname: "Md. Nasim Uddin",
+    TDegination: "Digital Marketer",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+  {
+    id: 8,
+    img: team7,
+    Tname: "Biswajit Sikdar",
+    TDegination: "Web Designer",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+
   {
     id: 9,
     img: team9,
     Tname: "Mehadi Hasan Shakil",
-    TDegination: "Data Analytics Intern",
-    Tfacebook: "https://www.facebook.com",
-    TInstragram: "https://www.instagram.com",
-    Ttwiter: "https://twitter.com/",
-    Tlinkdin: "https://www.linkedin.com",
+    TDegination: "Data Analytics Expert",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+  {
+    id: 10,
+    img: team10,
+    Tname: " Md. Hedayet",
+    TDegination: "Cyber Security Expert",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
+  },
+  {
+    id: 11,
+    img: team11,
+    Tname: "Md Shahajalal",
+    TDegination: "Assistant Accountant",
+    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
   },
 ];
 

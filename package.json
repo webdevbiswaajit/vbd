@@ -18,6 +18,7 @@
     "react-rating": "^2.0.5",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-tabs": "^5.1.0",
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^8.2.4",
     "web-vitals": "^2.1.4"
@@ -48,5 +49,11 @@
   },
   "resolutions": {
     "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "@iconify/icons-akar-icons": "^1.2.7",
+    "@iconify/icons-ant-design": "^1.2.3",
+    "@iconify/icons-entypo-social": "^1.2.2",
+    "@iconify/react": "^3.2.2"
   }
 }

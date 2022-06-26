@@ -4,9 +4,11 @@
   align-items: center;
   margin-top: 30px;
 }
+
 .social_media {
-  margin-right: 36px;
+  margin-right: 25px;
 }
+
 .social_media ul li {
   list-style: none;
   margin-right: 16px;
@@ -19,8 +21,12 @@
 .social_media ul li a {
   line-height: 24px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 25px;
   color: #e74c3c;
+}
+
+.social_link {
+  margin-left: 10px;
 }
 
 /* ===================Respnsive================ */

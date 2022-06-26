@@ -39,8 +39,11 @@
 
 .galary_btn button:hover {
   border-top: 2px solid #3498db;
-  font-size: 18px;
-  font-weight: 600;
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
 }
 
 .overLine hr {
@@ -132,6 +135,7 @@
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
 }
+
 .loadMore button:hover {
   background: #fff;
   border: 2px solid #3498db;
@@ -149,6 +153,7 @@
     text-align: center;
     margin-left: 0;
   }
+
   .galary_btn button {
     margin-top: 0px;
     margin-bottom: -20px;
@@ -158,19 +163,24 @@
     font-size: 30px;
     line-height: 30px;
   }
+
   .overLine {
     margin-top: -30px;
   }
+
   .galarry_text p {
     line-height: 20px;
   }
+
   .galary_btn {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
   .glarry_img {
     margin-top: 20px;
   }
+
   .galary_btn button:hover {
     border-top: none;
   }

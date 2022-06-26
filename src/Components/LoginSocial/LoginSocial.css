@@ -15,11 +15,23 @@
   margin-right: 0;
 }
 
-.login_ocial ul li a {
+.google a {
   line-height: 24px;
   font-weight: 600;
-  font-size: 18px;
-  color: #e74c3c;
+  font-size: 35px;
+  color: #ff0000;
+}
+.facebook a {
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #4267b2;
+}
+.linkdin a {
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #0077b5;
 }
 
 /* ===================Respnsive================ */

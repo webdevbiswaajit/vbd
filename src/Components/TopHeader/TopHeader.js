@@ -52,7 +52,9 @@ function TopHeader() {
               </div>
             </div>
           </div>
-          <Socialmedia />
+          <div className="social_link">
+            <Socialmedia />
+          </div>
         </div>
       </Container>
     </>
