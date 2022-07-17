@@ -105,6 +105,7 @@ footer .media_social {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 .subsCribe button:hover {
   background: #fff;
   color: #3498db;
@@ -126,9 +127,8 @@ footer .media_social {
 
 .googlePlay,
 .apple_store {
-  width: 100%;
-  text-align: center;
-  margin-left: -10px;
+
+  margin-right: 10px;
 }
 
 .googlePlay a img {
@@ -138,9 +138,11 @@ footer .media_social {
 .apple_store a img {
   width: 120px;
 }
+
 .paly_store {
   display: flex;
 }
+
 /* bottomFooter */
 
 .footerVBottom {
@@ -166,17 +168,21 @@ footer .media_social {
   font-size: 20px;
   margin-right: 5px;
 }
+
 .copy span {
   color: #3498db;
 }
+
 .logo_footer {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .logo_footer img {
   width: 100%;
 }
+
 .footerVBottom span a {
   color: #3498db;
   font-weight: 700;
@@ -191,36 +197,44 @@ footer .media_social {
     margin-left: 0;
     text-align: center;
   }
+
   .quicLink,
   .quicLink ul li {
     text-align: center;
     margin-left: 0;
   }
+
   .logo_footer {
     display: flex;
     justify-content: center;
     width: 250px;
   }
+
   .fImage {
     display: flex;
     justify-content: center;
   }
+
   .footer_contuct p {
     font-size: 16px;
     line-height: 16px;
     margin-top: -10px;
   }
+
   .subsCribe {
     text-align: center;
   }
+
   .quicLink h3 {
     margin-bottom: 5px;
     margin-top: 15px;
   }
+
   .subsCribe p {
     font-size: 16px;
     line-height: 20px;
   }
+
   .googlePlay a img {
     width: 120px;
     margin-bottom: 10px;
@@ -229,5 +243,10 @@ footer .media_social {
   .apple_store a img {
     width: 120px;
     margin-bottom: 10px;
+  }
+
+  .paly_store {
+    display: flex;
+    justify-content: center;
   }
 }

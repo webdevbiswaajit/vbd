@@ -1,16 +1,14 @@
 import React from "react";
 import "./Provide.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import web from "./ServiceTab/img/Web-Design-and-Development.jpg";
-import app from "./ServiceTab/img/Android_Development.jpg";
 import graphic from "./ServiceTab/img/Graphic-and-UI-UX-Design.jpg";
 import marketing from "./ServiceTab/img/Digital-Marketing-Service.jpg";
 import dataAnalicis from "./ServiceTab/img/Data-analysis.jpg";
 import cyber from "./ServiceTab/img/Cyber-Security.jpg";
-
+import andriod from "./ServiceTab/img/andriod.jpg";
 import "react-tabs/style/react-tabs.css";
-import ContuctBtn from "./../GetStart&Contuct/ContuctUs/ContuctBtn";
 import ServiceBtn from "./serviceBtn/ServiceBtn";
 
 function Provide() {
@@ -67,11 +65,12 @@ function Provide() {
                   </Col>
                 </Row>
               </TabPanel>
+
               <TabPanel>
                 <Row>
                   <Col md={7} sm={12}>
                     <div className="service_poster">
-                      <img src={app} alt="" />
+                      <img src={web} alt="" />
                     </div>
                   </Col>
                   <Col md={5} sm={12}>
@@ -102,6 +101,7 @@ function Provide() {
                   </Col>
                 </Row>
               </TabPanel>
+
               <TabPanel>
                 <Row>
                   <Col md={7} sm={12}>

@@ -1,6 +1,6 @@
 .golobal_button {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .global_started_btn a {
@@ -62,5 +62,10 @@
 
   .global_started_btn a {
     padding: 10px 25px;
+  }
+
+  .golobal_button {
+    display: flex;
+    justify-content: center;
   }
 }

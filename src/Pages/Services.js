@@ -9,6 +9,7 @@ import Counter from "./../Components/Counter/Counter";
 import Footer from "../Components/Footer/Footer";
 import GlobalBuisness from "../Components/Services/GlobalBuisness/GlobalBuisness";
 import BrandSlider from "./../Components/BrandSlider/BrandSlider";
+import Provide from "./../Components/Provived/Provide";
 
 function Services() {
   return (
@@ -17,6 +18,7 @@ function Services() {
       <Menu />
       <Banner />
       <Resources />
+      <Provide />
       <Buisness />
       <Faq />
       <Counter />

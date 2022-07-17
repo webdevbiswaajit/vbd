@@ -6,7 +6,7 @@ import team5 from "./img/Shabbir-Hussain.jpg";
 import team6 from "./img/MD.Nasim.jpg";
 import team7 from "./img/biswajit .jpg";
 import team8 from "./img/Parag-Khan.jpg";
-import team9 from "./img/Mehadi-Hasan-Shakil.jpg";
+
 import team10 from "./img/Hedayet.jpg";
 import team11 from "./img/Md-Shahajalal.jpg";
 
@@ -76,14 +76,6 @@ const TeamSlider = [
     img: team7,
     Tname: "Biswajit Sikdar",
     TDegination: "Web Designer",
-    Tgmail: "https://mail.google.com/mail/u/0/#inbox",
-  },
-
-  {
-    id: 9,
-    img: team9,
-    Tname: "Mehadi Hasan Shakil",
-    TDegination: "Data Analytics Expert",
     Tgmail: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
