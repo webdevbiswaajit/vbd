@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
 import "./Menu.css";
-import logo from "./logo/logo.jpg";
+import logo from "./logo/logo.png";
 function Menu() {
   const getClass = (navData) => (navData.isActive ? "navActive" : "link");
   const routes = [

@@ -63,32 +63,39 @@
 .heartbeat {
   animation: heartbeat 2s infinite;
 }
+
 .modal-content {
   width: 100% !important;
 }
+
 @keyframes heartbeat {
   from {
     transform: scale(1);
     transform-origin: center center;
     animation-timing-function: ease-out;
   }
+
   10% {
     transform: scale(0.91);
     animation-timing-function: ease-in;
   }
+
   17% {
     transform: scale(0.98);
     animation-timing-function: ease-out;
   }
+
   33% {
     transform: scale(0.87);
     animation-timing-function: ease-in;
   }
+
   45% {
     transform: scale(1);
     animation-timing-function: ease-out;
   }
 }
+
 /* =======================Responsive===================== */
 
 @media only screen and (max-width: 768px) {
@@ -98,29 +105,34 @@
     line-height: 30px;
     text-align: center;
   }
+
   .hero_content h1 {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
   }
+
   .hero {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 44px;
   }
+
   .play {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
   }
+
   .play_btn {
     width: 50px;
     height: 50px;
     text-align: center;
     margin-left: 20px;
   }
+
   .play p {
     font-size: 20px;
     line-height: 20px;
@@ -128,6 +140,7 @@
     margin-right: 10px;
   }
 }
+
 .vedio_area {
   width: 640px;
   height: 360px;

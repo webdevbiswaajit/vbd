@@ -2,12 +2,12 @@ import React from "react";
 import "./Provide.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Container, Row, Col } from "react-bootstrap";
-import web from "./ServiceTab/img/Web-Design-and-Development.jpg";
-import graphic from "./ServiceTab/img/Graphic-and-UI-UX-Design.jpg";
-import marketing from "./ServiceTab/img/Digital-Marketing-Service.jpg";
-import dataAnalicis from "./ServiceTab/img/Data-analysis.jpg";
-import cyber from "./ServiceTab/img/Cyber-Security.jpg";
-import andriod from "./ServiceTab/img/andriod.jpg";
+import web from "./ServiceTab/img/web-min.jpg";
+import graphic from "./ServiceTab/img/Graphic-min.jpg";
+import marketing from "./ServiceTab/img/marketing-min.jpg";
+import dataAnalicis from "./ServiceTab/img/Data-analysis-min.jpg";
+import cyber from "./ServiceTab/img/cyber-min.jpg";
+import app from "./ServiceTab/img/app-min.jpg";
 import "react-tabs/style/react-tabs.css";
 import ServiceBtn from "./serviceBtn/ServiceBtn";
 
@@ -70,7 +70,7 @@ function Provide() {
                 <Row>
                   <Col md={7} sm={12}>
                     <div className="service_poster">
-                      <img src={web} alt="" />
+                      <img src={app} alt="" />
                     </div>
                   </Col>
                   <Col md={5} sm={12}>
